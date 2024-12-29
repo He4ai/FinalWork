@@ -117,7 +117,7 @@ class Vk:
                             break
 
 
-user_id = input('Введите идентификатор пользователя ВК')
-yandex_token = input('Введите ваш яндекс-токен')
+user_id = input('Введите идентификатор пользователя ВК: ')
+yandex_token = input('Введите ваш яндекс-токен: ')
 vk_user = Vk(user_id, yandex_token)
 vk_user.put_photo(3)
